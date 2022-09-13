@@ -20,7 +20,7 @@ class CategoryList extends Component {
             </ListGroupItem>
           ))}
         </ListGroup>
-        <h5>Selected Category: {this.props.currentCategory.categoryName}</h5>
+        <h5>Selected Category: {this.props.currentCategory[1].categoryName}</h5>
       </div>
     );
   }
