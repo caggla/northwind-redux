@@ -6,7 +6,7 @@ export default function categoryListReducer(
   action,
 ) {
   switch (action.type) {
-    case actionTypes.CHANGE_CATEGORY:
+    case actionTypes.GET_CATEGORIES_SUCCESS:
       return action.payload;
 
     default:
